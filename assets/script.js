@@ -3,7 +3,7 @@ var cityInput = document.querySelector('input');
 var searchCity = document.querySelector('ul');
 var cityArray = [];
 
-
+//search button
 buttonEl.addEventListener('click', function (event) {
     event.preventDefault();
 
@@ -20,6 +20,7 @@ buttonEl.addEventListener('click', function (event) {
     weatherFetch(cityInput.value);
 });
 
+//local storage
 function getCity() {
     var storedCity = JSON.parse(localStorage.getItem('local-cityArray'));
 
@@ -55,7 +56,7 @@ cityInput.addEventListener('click', function (event) {
     cityInput.value = '';
 })
 
-
+//fetch from api
 function weatherFetch(cityName) {
     var requestUrl = `http://api.openweathermap.org/geo/1.0/direct?q=${cityName}&appid=6167295a2c379d9bdaca3c06a5ade77e`
     console.log(requestUrl);

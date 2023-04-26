@@ -1,20 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@300&display=swap');
 
-.main{
-    color: white;
-    background-color:#a85cdb;    
-}
 
-.card-header,
-.card-body{
-    background-color: #a85cdb;
-}
-
-form{
-    margin-left: 50px;
-}
-
-.fiveDay{
+.five-day{
 margin: 40px;
-color: white
+} 
+
+h1,
+.currentHeader{
+    margin: 40px;
+    color: blueviolet;
 }
+
