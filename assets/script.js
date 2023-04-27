@@ -96,6 +96,9 @@ function weatherFetch(cityName) {
 
                     var currentHumid = document.querySelector('.current .item3');
                     currentHumid.textContent = 'Humidity: ' + data.list[0].main.humidity + '%';
+
+                    var currentIcon = document.querySelector('#icon1 #icon2 #icon3 #icon4 #icon5');
+                    currentIcon.setAttribute('src', 'https://openweathermap.org/img/wn/' + data.list[0].weather[0].icon + '@2x.png')
                     
                     var fiveDayForecast = [];
 
