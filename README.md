@@ -9,6 +9,7 @@ This website displays the weather for a city that is searched. When a city is se
 ![weatherapp](https://user-images.githubusercontent.com/127162545/235004097-8b7af567-4e89-452d-9026-e23b150cf8d3.JPG)
 
 https://github.com/sarahxomargaret/Weather-App
+
 https://sarahxomargaret.github.io/Weather-App/
 
 ## License
